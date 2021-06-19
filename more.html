@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edusun_local history platform</title>
+  </head>
+  <body>
+    <header class="screen-header">
+      <h1 class="screen-header__title">
+        <span>
+          <a href="Home.html">      
+          <img src="css/img/로고.png" alt="logo" width="35" height="25">Edusun
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"></a></span></h1>
+      <div class="screen-header__icons">
+        <span>
+          <input type="text" placeholder="Search..">
+        </span>
+        <span>
+          <a href="login.html"><i class="fas fa-user"></i></a>
+        </span>
+        <span>
+          <a href="chat.html"><i class="fas fa-phone-alt"></i></a>
+        </span>
+      </div>
+    </header>
+    <main class="more-screen">
+      <div class="user-component">
+       <div class="map-responsive"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38109.37394087465!2d-1.5286402577173668!3d53.34619417450182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879824f7bf766ef%3A0x4879825c3a938e3f!2sRiver%20Sheaf!5e0!3m2!1sen!2skr!4v1622864943483!5m2!1sen!2skr" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div class="user-component__first">
+          <div class="user-component__column">
+            <img
+            src="css/img/dog.JPG"
+            class="user-component__avatar user-component__avatar--xl"/>
+            <div class="user-component__text">
+              <div class="user-component__title">wowky22
+                <div class="user-component__subtitle">3 hours ago</div>
+                  <div class="user-component__h1"> My Korean friend is going to visit the River Sheaf in Sheffield, and I'm gonna show him around as a guide. Is there any fun stories about this place?
+                  </div>  
+                  <div class="user-component__h2">
+                    <div style="cursor: pointer;">Like  Save  Report</div>
+                  </div>      
+              </div>
+            </div>
+          </div>                   
+          <div class="user-component__Public_Comments">Public comments
+          </div>              
+          <div class="user-component__column">
+            <img
+            src="css/img/user_img.JPG"
+            class="user-component__avatar user-component__avatar--xl"/>
+            <div class="user-component__text">
+              <section id="app">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="comment">
+                    <p v-for="items in item" v-text="items"></p>
+                      </div>
+                      </div>
+                      </div>
+                  <div class="row">
+                    <div class="col-6">
+                  <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                      <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>    
+          <div class="user-component__column">
+            <img
+            src="css/img/woman.JPG"
+            class="user-component__avatar user-component__avatar--xl"/>
+            <div class="user-component__text">
+              <div class="user-component__title">bibi00
+              <div class="user-component__subtitle">15 minutes ago</div>
+                <div class="user-component__h1"> We started off small, but only massively expanded during the industrial revolution as the centre for steel production.
+                </div>
+                  <div class="user-component__click">
+                      <button onclick="Function()">...more</button>
+                    <p id="demo"></p>
+                    <script>
+                      function Function() {
+                        document.getElementById("demo").innerHTML = "In the city centre, at the point where the river disappears to merge in an underground culvert with the larger River Don, the company installed a sinuous wavey sculpture they had constructed from steam-bent oak with stainless cover strips and large stainless text graphic.";
+                      }
+                    </script>
+                    <div class="user-component__h2">
+                      <div style="cursor: pointer;">Like  Save  Report</div>
+                    </div>    
+                  </div>
+                     
+              </div>
+            </div>
+          </div> 
+          <div class="user-component__column">
+            <img
+            src="css/img/frie.JPG"
+            class="user-component__avatar user-component__avatar--xl"/>
+            <div class="user-component__text">
+              <div class="user-component__title">xoka12
+                <div class="user-component__subtitle">2 hours ago</div>
+                  <div class="user-component__h1"> Well, I heard the River Sheaf (from which Sheffield gets its name (Sheffield) was also the boundary between two major kingdoms in England.
+                  </div>                 
+                  <div class="user-component__h2">
+                    <div style="cursor: pointer;">Like  Save  Report</div>
+                  </div>   
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+  </body>
+  <script
+  src="https://kit.fontawesome.com/6478f529f2.js"
+  crossorigin="anonymous"
+></script>
+</html>

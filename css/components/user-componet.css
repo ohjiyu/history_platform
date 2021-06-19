@@ -1,0 +1,168 @@
+.user-component {
+    justify-content: space-between;
+   
+  }
+  
+  .user-component span {
+    margin-right: 6px;
+  }
+  
+  .user-component,
+  .user-component__column {
+    align-items: initial;
+    padding: 5px;
+  }
+  
+  
+  .user-component__column {
+    display: flex
+   
+  }
+  
+  
+  .user-component__avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+  
+  .user-component__first{
+    display: flexbox;
+  }
+  
+  .user-component__Public_Comments{
+    
+    width: 59%;
+    position: relative;
+    border-top: 2px solid rgb(12, 3, 3);
+    border-bottom: 1.3px solid rgb(167, 167, 167);
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+  
+  .map-responsive{
+    
+    display: absolute;
+    float: right;
+    margin-left: auto;
+    margin-right: unset;
+    width: 40%;
+  }
+  
+  .container {
+      max-width: 700px;
+      margin: 1px auto;
+      background: #fff;
+      border-radius: 1px;
+      padding: 1px;
+    
+  }
+  .comment {
+      display: flex;
+      transition: all 1s;
+  }
+  .commentClicked {
+      min-height: 0px;
+      border: 1px solid #eee;
+      border-radius: 1px;
+      padding: 1px 10px
+    
+  }
+  .container textarea {
+    width: 80%;
+    border: none;
+      background: #E8E8E8;
+      padding: 5px 1rem;
+      height: 50%;
+      border-radius: 5px 10px 0px 0px;
+      transition: all 0.5s;
+      margin-top: 15px;
+   
+   
+    
+  }
+  button.primaryContained {
+      background: #e289f8;
+      color: #fff;
+      padding: 7px 10px;
+      border: none;
+      margin-top:0px;
+    margin-bottom: 20px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+      transition: 1s all;
+      font-size: 10px;
+      border-radius: 5px;
+    
+  }
+  
+  .user-component__click{
+    font-weight:normal;
+    font-size: 15px;
+    line-height:150%;
+  
+  }
+  .user-component__title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .user-component__subtitle {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height:2
+  }
+  
+  .user-component__h1{
+  
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    font-weight: normal;
+    line-height:150%;
+  
+  }
+  
+  .user-component__h1_1{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: normal;
+    line-height:2;
+  }
+  
+  .user-component__h2{
+    font-size: 13px;
+    color: rgb(223, 12, 160);
+    font-weight: bold;
+    line-height:2;
+  
+  }
+  
+  
+  .user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+  }
+  
+  .user-component__title--not-bold {
+    font-weight: 400;
+  }
+  
+  .user-component-chats-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-component__time {
+    margin-bottom: 5px;
+  }
+  

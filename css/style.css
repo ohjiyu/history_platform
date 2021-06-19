@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/alt-screen-header.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
+
+/* screens */
+@import "screens/chat.css";
+@import "screens/Home.css";
+@import "screens/login.css";
+@import "screens/more.css";
+
+
+main {
+  height: 200vh;
+  padding-top: 100px;
+}

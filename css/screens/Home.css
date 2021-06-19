@@ -1,0 +1,27 @@
+.bound{
+  height: 60%;
+  width: 60%;
+}
+
+.map{
+  height:100%;
+}
+
+.popular__talks{
+  width: 55%;
+  height: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  color:rgb(221, 68, 68);
+}
+
+.popular__talks1{
+  background-color: rgba(255, 255, 234, 0.904);
+  width: 55%;
+  height: 100;
+  padding: 1%;
+  border: 1px solid rgb(158, 154, 121);
+  margin: 5px;
+}
+
